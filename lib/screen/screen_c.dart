@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:live_wallpaper_app_03/screen/home_page.dart';
 
 class ScreenC extends StatefulWidget {
   @override
@@ -24,9 +25,12 @@ class _ScreenCState extends State<ScreenC> {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => HomePage()),
+                );
               },
-              child: Text('Back to Screen B'),
+              child: Text('finish'),
             ),
           ],
         ),

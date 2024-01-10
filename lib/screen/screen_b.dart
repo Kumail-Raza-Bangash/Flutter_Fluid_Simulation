@@ -30,7 +30,7 @@ class _ScreenBState extends State<ScreenB> {
                   MaterialPageRoute(builder: (context) => ScreenC()),
                 );
               },
-              child: Text('Go to Screen C'),
+              child: Text('next'),
             ),
           ],
         ),
