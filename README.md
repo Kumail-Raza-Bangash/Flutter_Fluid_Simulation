@@ -1,16 +1,10 @@
-# live_wallpaper_app_03
+# Flutter Fluid Simulation
 
+I've been playing with #Flutter #FlameEngine again, to create a real time fluid simulation. Based on this video by thecodingtrain, using Mike Ash's paper Fluid Simulation for Dummies as a reference. I ported the code shown in the video to Flutter. And voila !
 A new Flutter project.
 
-## Getting Started
+## Video: 
+1: 
+https://github.com/Kumail-Raza-Bangash/Flutter_Fluid_Simulation/assets/60749099/b72f066c-fbcf-4c4f-a2de-acbd4472ebeb
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
