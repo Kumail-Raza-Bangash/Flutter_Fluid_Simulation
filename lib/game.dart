@@ -17,6 +17,8 @@ class MyGame extends Game with SingleGameInstance {
 
   final paint = Paint()..color = const Color(0xFFFF0000); // Use Color instead of Colors
   final viewport = Viewport(Vector2.all(n.toDouble()), Vector2.all(n.toDouble()));
+  //final flame_camera.Viewport viewport = flame_camera.Viewport(Vector2(n.toDouble(), n.toDouble()), Vector2(n.toDouble(), n.toDouble()));
+  
   final FluidGrid fluidGrid = FluidGrid(n, 0.0000001, 0.000001);
   final noise = PerlinNoise();
 
