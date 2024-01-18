@@ -34,6 +34,10 @@ dependencies:
   chewie: ^1.7.4
   provider: ^6.1.1
   video_player: ^2.8.2
+  fast_noise: ^1.0.1
+  flame: ^1.5.0
+  flutter_riverpod: ^2.1.1
+  camera: ^0.10.5+9
 
 dev_dependencies:
   flutter_test:
